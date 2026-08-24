@@ -4,7 +4,7 @@
 
 ---
 
-## 🇹🇷 TÜRKÇE PROJE ÖZETİ
+##  PROJE ÖZETİ
 
 ### 🎯 Proje Hakkında
 Bu proje, **Facebook Ads** ve **Google Ads** platformlarından elde edilen dijital pazarlama verilerinin **PostgreSQL** veri tabanında birleştirilmesi ve **Looker Studio (Google Data Studio)** üzerinde etkileşimli bir performans gösterge tablosuna (dashboard) dönüştürülmesini kapsar. 
