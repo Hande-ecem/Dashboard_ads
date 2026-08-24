@@ -1,10 +1,10 @@
 # Dashboard_ads
-# 📊 Digital Marketing Performance Dashboard / Dijital Pazarlama Performans Gösterge Tablosu
+#  Digital Marketing Performance Dashboard / Dijital Pazarlama Performans Gösterge Tablosu
 ---
 
 ##  PROJE ÖZETİ
 
-### 🎯 Proje Hakkında
+###  Proje Hakkında
 Bu proje, **Facebook Ads** ve **Google Ads** platformlarından elde edilen dijital pazarlama verilerinin **PostgreSQL** veri tabanında birleştirilmesi ve **Looker Studio (Google Data Studio)** üzerinde etkileşimli bir performans gösterge tablosuna (dashboard) dönüştürülmesini kapsar. 
 
 Amaç, farklı kanallardan gelen reklam harcamalarını, tıklamaları, gösterimleri ve yatırım getirisini (ROMI) tek bir merkezden takip edebilmektir.
@@ -23,7 +23,7 @@ Isı haritalı tablolar (Table with Heatmap) ile en verimli ve en düşük perfo
 
 ---
 
-### 🛠️ Kullanılan Veri Kaynağı Sorgusu (PostgreSQL Custom Query)
+###  Kullanılan Veri Kaynağı Sorgusu (PostgreSQL Custom Query)
 Farklı tablolardan gelen Facebook ve Google Ads verilerini standart bir yapıya getirmek için aşağıdaki CTE (Common Table Expression) SQL sorgusu kullanılmıştır:
 
 ```sql
