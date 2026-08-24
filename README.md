@@ -1,7 +1,6 @@
 # Dashboard_ads
 #  Digital Marketing Performance Dashboard / Dijital Pazarlama Performans Gösterge Tablosu
 ---
-
 ##  PROJE ÖZETİ
 
 ###  Proje Hakkında
@@ -20,7 +19,28 @@ Görselleştirme & Veri Anlatıcılığı:
 Çizgi grafik ile ay bazında aktif kampanya sayılarını takip etmeyi,
 
 Isı haritalı tablolar (Table with Heatmap) ile en verimli ve en düşük performanslı kampanyaları hızlıca tespit etmeyi deneyimledim.
+### About The Project
+This project focuses on consolidating digital advertising performance data from Facebook Ads and Google Ads stored in a PostgreSQL database and visualizing it interactively using Google Looker Studio.
 
+The main objective is to track cross-channel ad spend, clicks, impressions, and Return on Marketing Investment (ROMI) within a unified dashboard.
+
+📐 Calculated Metrics & Formulas (Looker Studio)
+Ad Spend: SUM(toplam_maliyet)
+
+CPC (Cost Per Click): SUM(toplam_maliyet) / SUM(tiklama_sayisi)
+
+CPM (Cost Per Mille): (SUM(toplam_maliyet) / SUM(gosterim_sayisi)) * 1000
+
+CTR (Click-Through Rate): SUM(tiklama_sayisi) / SUM(gosterim_sayisi)
+
+ROMI (Return on Marketing Investment): (SUM(toplam_value) - SUM(toplam_maliyet)) / SUM(toplam_maliyet)
+
+💡 Key Takeaways & Skills Learned
+Cross-Channel Data Integration: Mastered PostgreSQL CTEs and UNION ALL operations to merge diverse advertising schemas.
+
+Business Intelligence & KPI Modeling: Built custom calculated metrics in Looker Studio to reflect core e-commerce & marketing metrics.
+
+Advanced Visualization: Designed dual-axis combo charts for budget vs. ROMI analysis, line charts for campaign tracking, and heatmaps for campaign-level audit.
 ---
 
 ###  Kullanılan Veri Kaynağı Sorgusu (PostgreSQL Custom Query)
