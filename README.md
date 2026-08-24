@@ -8,6 +8,18 @@
 Bu proje, **Facebook Ads** ve **Google Ads** platformlarından elde edilen dijital pazarlama verilerinin **PostgreSQL** veri tabanında birleştirilmesi ve **Looker Studio (Google Data Studio)** üzerinde etkileşimli bir performans gösterge tablosuna (dashboard) dönüştürülmesini kapsar. 
 
 Amaç, farklı kanallardan gelen reklam harcamalarını, tıklamaları, gösterimleri ve yatırım getirisini (ROMI) tek bir merkezden takip edebilmektir.
+^##Bu Projede Neler Öğrendim?
+SQL & Veri Birleştirme: PostgreSQL üzerinde CTE ve UNION ALL yapılarını kullanarak iki farklı veri kaynağını (Facebook & Google) ortak bir veri modeline dönüştürmeyi öğrendim.
+
+BI & Hesaplanan Alanlar (Calculated Fields): Looker Studio üzerinde SUM, bölme ve oranlama fonksiyonları ile dijital pazarlamanın en kritik KPI'larını (CPC, CPM, CTR, ROMI) kurguladım.
+
+Görselleştirme & Veri Anlatıcılığı:
+
+Çift eksenli birleşik grafik (Combo Chart) ile Ad Spend vs. ROMI eğilimlerini zaman ekseninde izlemeyi,
+
+Çizgi grafik ile ay bazında aktif kampanya sayılarını takip etmeyi,
+
+Isı haritalı tablolar (Table with Heatmap) ile en verimli ve en düşük performanslı kampanyaları hızlıca tespit etmeyi deneyimledim.
 
 ---
 
