@@ -1,7 +1,5 @@
 # Dashboard_ads
 # 📊 Digital Marketing Performance Dashboard / Dijital Pazarlama Performans Gösterge Tablosu
-
-
 ---
 
 ##  PROJE ÖZETİ
